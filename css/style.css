@@ -408,6 +408,7 @@ h5 {
 
 .margin-top30 {
     margin-top: 30px
+    
 }
 
 .margin-top20 {
@@ -1044,13 +1045,36 @@ a.totop-link {
     -o-transition-duration: .2s;
 }
 
+.contact-text i {
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
 .contact-text:hover i {
     color: #818181;
 }
 
-.contact-social i {
-    color: #797979;
+
+.contact-social-w i{
+    color: #34af23;
+    font-size: 35px;
 }
+
+.contact-social-l i{
+    color: #0e76a8;
+    font-size: 35px;
+}
+
+.contact-social-w i:hover {
+    color: #ffffff;
+} 
+
+.contact-social-l i:hover {
+    color: #ffffff;
+} 
+
 
 .contact-social a i {
     font-size: 25px;
@@ -1061,7 +1085,14 @@ a.totop-link {
     margin: 0 15px 0 0
 }
 
-.contact-social i {
+.contact-social-w i {
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+.contact-social-l i {
     transition-duration: .2s;
     -moz-transition-duration: .2s;
     -webkit-transition-duration: .2s;
